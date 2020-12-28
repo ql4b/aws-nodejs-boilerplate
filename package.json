@@ -14,7 +14,7 @@
     "ci": "npm audit && npm run lint && npm run test:ci"
   },
   "pre-commit": [
-    "audit-fix",
+    "audit:fix",
     "lint:fix",
     "test:ci"
   ],
